@@ -38,6 +38,13 @@ h1 {
     z-index: 1;
 }
 
+
+
+
+.container {
+    position: relative;
+}
+
 .body-platform {
     margin: auto;
     margin-top: 10%;
@@ -52,6 +59,18 @@ h1 {
     box-shadow: 0px 0px 100px #595959;
     opacity: 1;
     z-index: 1
+}
+
+.sitter-container {
+    display: absolute;
+    margin-top: -2025px;
+    margin-left: 80%;
+    z-index: 10;
+}
+
+.sitter {
+    height: 50px;
+    width: 50px;
 }
 
 .skeleton-about {
