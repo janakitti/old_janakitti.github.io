@@ -43,6 +43,8 @@ h1 {
 
 .container {
     position: relative;
+    align-items: right;
+    width: 100%;
 }
 
 .body-platform {
@@ -56,22 +58,23 @@ h1 {
     padding: 4vw;
     border-radius: 20px;
     background: white;
-    /*background-image: url("x.png");*/
+    /*background-image: url("x.jpg");*/
     box-shadow: 0px 0px 100px #595959;
     opacity: 1;
     z-index: 1
 }
 
 .sitter-container {
+    position: absolute;
     display: absolute;
-    margin-top: -2025px;
-    margin-left: 80%;
+    margin-left: calc(90% - 16vw);
+    margin-top: calc(-2000px - 10.5vw);
     z-index: 10;
 }
 
 .sitter {
-    height: 50px;
-    width: 50px;
+    height: 16vw;
+    width: 16vw;
 }
 
 .skeleton-about {
@@ -125,7 +128,21 @@ h1 {
     border-width: 2px;
     border-radius: 50%;
 }
+.container-profile-link {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    border-spacing: 0em;
 
+    padding-right: 1vw;
+    padding-left: 1vw;
+    text-align: center;
+}
 
 
 .skeleton-body {
@@ -245,4 +262,37 @@ h1 {
     font-size: 0.75em;
     color: #808080;
     text-align: left;
+}
+
+
+@media (max-width: 879px) {
+    .body-platform {
+        margin-top: 10%;
+        positon: absolute;
+        height: 2000px;
+        width: 100%;
+
+        box-sizing: border-box;
+        padding: 4vw;
+        border-radius: 0px;
+        background: white;
+        /*background-image: url("x.png");*/
+        opacity: 1;
+        z-index: 1
+    }
+    .container-profile-link {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: space-around;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        border-spacing: 0em;
+
+        padding-right: 1vw;
+        padding-left: 1vw;
+        text-align: center;
+    }
 }
