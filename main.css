@@ -51,7 +51,7 @@ h1 {
     margin: auto;
     margin-top: 10%;
     positon: absolute;
-    height: 2000px;
+    height: 4000px;
     width: 90%;
 
     box-sizing: border-box;
@@ -68,7 +68,7 @@ h1 {
     position: absolute;
     display: absolute;
     margin-left: calc(90% - 16vw);
-    margin-top: calc(-2000px - 10.5vw);
+    margin-top: calc(-4000px - 10.5vw);
     z-index: 10;
 }
 
