@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">place</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">clipboard</a></li>
+      <li><a href="#">alpha</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="page-header">
+    <h1>place</h1>
+  </div>
+</div>
+
+  <div class="input-group">
+    <span class="input-group-addon">paste</span>
+    <input id="input-field" type="text" class="form-control" placeholder="add text">
+  </div>
+
+  <button class="btn btn-primary" onclick="submitForm()">Submit</button>
+  <br>
+  <p id="keyDisplay"></p>
+  <br>
+  <div class="input-group">
+    <span class="input-group-addon">retrieve</span>
+    <input id="retrieve-field" type="text" class="form-control" placeholder="enter tag">
+  </div>
+  <button class="btn btn-primary" onclick="submitKey()">Retrieve</button>
+  <br>
+  <p id="output"></p>
+
+<script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyASHl7371WFTiHez1YvTtDJHPlX55_JzZQ",
+    authDomain: "myfirstfirebase-31f68.firebaseapp.com",
+    databaseURL: "https://myfirstfirebase-31f68.firebaseio.com",
+    projectId: "myfirstfirebase-31f68",
+    storageBucket: "myfirstfirebase-31f68.appspot.com",
+    messagingSenderId: "401085273382"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="script-clipboard.js"></script>
+</body>
+</html>
