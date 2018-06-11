@@ -212,7 +212,7 @@ h1 {
     align-content: space-around;
     align-items: center;
     position: relative;
-    margin-top: 5%;
+    margin-top: 0%;
     width: 100%;
     border-spacing: 0em;
 
@@ -260,6 +260,23 @@ h1 {
     text-align: left;
 }
 
+.card-title-project{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 1em;
+    word-wrap: break-word;
+    color: #2eb8b8;
+    text-align: left;
+}
+
+.card-title-experience{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 1em;
+    word-wrap: break-word;
+    color: #b3b300;
+    text-align: left;
+}
 .card-body {
     font-family: Montserrat;
     font-weight: lighter;
@@ -268,7 +285,6 @@ h1 {
     color: #808080;
     text-align: left;
 }
-
 
 @media (max-width: 879px) {
     .body-platform {
