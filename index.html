@@ -8,8 +8,9 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto+Mono" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script src="/path/to/parallax.js"></script>
+  <script src="main.js"></script>
 </head>
-<body>
+<body onload="displayMessage();">
 
 <a href="./resume.html"><div class="resumeButton"><p class="resumeText">RESUME</p></div></a>
 
@@ -17,7 +18,7 @@
     <div class="parallax title-area">
     <img class="background" src="background.jpg" alt="hey, what happened to my wallpaper?">
       <h1>JANAKITTI</h1>
-      <p class="subtitle">Website W.I.P.!</p>
+      <p id="textToChange" class="subtitle">...</p>
       <!--ya &#9679; na &#9679; kit-->
     </div>
 </div>
@@ -57,11 +58,13 @@
                 <tr>
                     <td>
                         <div class="skillsList">
+                            <div class="skillItemShape"><p class="skillItem" style="color: #86b300">Python</p></div>
+                            <div class="skillItemShape"><p class="skillItem" style="color: #008ae6">Java</p></div>
                             <div class="skillItemShape"><p class="skillItem" style="color: #ff6600">HTML</p></div>
                             <div class="skillItemShape"><p class="skillItem" style="color: #ff3399">CSS</p></div>
                             <div class="skillItemShape"><p class="skillItem" style="color: #009999">JavaScript</p></div>
-                            <div class="skillItemShape"><p class="skillItem" style="color: #008ae6">Java</p></div>
-                            <div class="skillItemShape"><p class="skillItem" style="color: #86b300">Python</p></div>
+                            <div class="skillItemShape"><p class="skillItem" style="color: #cc6600">Firebase</p></div>
+                            <div class="skillItemShape"><p class="skillItem" style="color: #b300b3">Boostrap 4</p></div>
                             <div class="skillItemShape"><p class="skillItem" style="color: #7575a3">Git</p></div>
                             <div class="skillItemShape"><p class="skillItem" style="color: #ff9900">Adobe Illustrator</p></div>
                             <div class="skillItemShape"><p class="skillItem" style="color: #600080">iMovie</p></div>
