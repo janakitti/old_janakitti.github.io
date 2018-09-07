@@ -356,6 +356,45 @@ h1 {
     text-align: left;
 }
 
+.achievementsTable {
+    table-layout: fixed;
+
+}
+
+.node {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 10px solid #99e6e6;
+}
+
+.stem {
+    width: 5px;
+    height: 20px;
+    background-color: #99e6e6;
+
+}
+
+.achievementsSymbol {
+    align-items: center;
+}
+
+.achievementsText {
+    padding-left: 50px;
+    width: 95%;
+
+    font-family: Montserrat;
+    font-weight: lighter;
+    font-size: 0.75em;
+    word-wrap: break-word;
+    color: #808080;
+    text-align: left;
+}
+
+
+
+
+
 @media (max-width: 879px) {
     .body-platform {
         margin-top: 10%;
