@@ -2,6 +2,17 @@ body {
     background-color: #f2f2f2;
 }
 
+h1 {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 10vw;
+    color: white;
+    margin-top: 20%;
+    text-align: center;
+    line-height: 20%;
+    z-index: 0;
+}
+
 .background {
     height: 90%;
     width: 100%;
@@ -14,17 +25,7 @@ body {
     overflow: hidden;
     z-index: -1;
     background-position: 50% 400px;
-}
-
-h1 {
-    font-family: Montserrat;
-    font-weight: bold;
-    font-size: 10vw;
-    color: white;
-    margin-top: 20%;
-    text-align: center;
-    line-height: 20%;
-    z-index: 0;
+    background-size: cover
 }
 
 .subtitle {
@@ -49,8 +50,7 @@ h1 {
     z-index: 0;
 }
 
-
-
+/* LINKS */
 .backLink:link {
     font-family: Montserrat;
     font-weight: bold;
@@ -63,7 +63,6 @@ h1 {
     z-index: 0;
 }
 
-/* visited link */
 .backLink:visited {
     font-family: Montserrat;
     font-weight: bold;
@@ -75,7 +74,6 @@ h1 {
     z-index: 0;
 }
 
-/* mouse over link */
 .backLink:hover {
     font-family: Montserrat;
     font-weight: bold;
@@ -88,29 +86,47 @@ h1 {
 }
 
 
+.mainContainer {
+    padding: 0px;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.parallaxContainer {
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+}
 .container {
+    display: block;
     position: relative;
     align-items: right;
     width: 100%;
+    z-index: 1;
 }
+
+
+
+
 
 .body-platform {
     margin: auto;
     margin-top: 10%;
     positon: absolute;
     height: auto;
-    width: 90%;
+    width: 80%;
     box-sizing: border-box;
     padding: 4vw;
     border-radius: 20px;
     background: white;
-    /*background-image: url("x.jpg");*/
     box-shadow: 0px 0px 100px #595959;
     opacity: 1;
     z-index: 1
 }
 
-
+/* SITTER */
 .sitter-container {
     position: absolute;
     display: absolute;
@@ -190,7 +206,6 @@ h1 {
     text-align: center;
 }
 
-
 .skeleton-body {
     position: relative;
     margin-top: 5%;
@@ -220,7 +235,9 @@ h1 {
     text-align: left;
 }
 
-.skills {
+.
+
+s {
     position: absolute;
     left: 0;
     right: 0;
@@ -232,6 +249,11 @@ h1 {
     padding-right: 100px;
     background: #f2f2f2;
     text-align: left;
+}
+
+.skillsList {
+    background-color: #ffffff;
+    border-radius: 50px;
 }
 
 .skillItem {
@@ -292,12 +314,13 @@ h1 {
 
 .card:hover {
     box-shadow: 0 20px 62px 0 rgba(0,0,0,0.2);
-    /*width: 12em;*/
 }
 
 .card-home:hover {
     box-shadow: 0 8px 32px 0 rgba(0,0,0,0.2);
-    width: 18em;
+    /*
+    Expand the card on hover
+    width: 18em; */
 }
 
 .card-image {
@@ -392,9 +415,40 @@ h1 {
 }
 
 
+/* RESUME */
+.resumeButton {
+    position: fixed;
+    right: 2vw;
+    bottom: 2vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 0vw;
+    padding-top: 0vw;
+    border-radius: 50px;
+    background: #00cccc;
+    box-shadow: 0px 5px 25px #595959;
+    opacity: 1;
+    z-index: 100;
+    text-align: center;
+}
+
+.resumeText {
+    position: relative;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 1em;
+    color: white;
+}
+
+#resume{
+    height: 100%;
+    width: 100%;
+}
 
 
 
+
+/* MOBILE FORMATTING */
 @media (max-width: 879px) {
     .body-platform {
         margin-top: 10%;
@@ -424,33 +478,4 @@ h1 {
         padding-left: 1vw;
         text-align: center;
     }
-}
-
-.resumeButton {
-    position: fixed;
-    right: 2vw;
-    bottom: 2vw;
-    padding-left: 2vw;
-    padding-right: 2vw;
-    padding-bottom: 0vw;
-    padding-top: 0vw;
-    border-radius: 50px;
-    background: #00cccc;
-    box-shadow: 0px 5px 25px #595959;
-    opacity: 1;
-    z-index: 100;
-    text-align: center;
-}
-
-.resumeText {
-    position: relative;
-    font-family: Montserrat;
-    font-weight: bold;
-    font-size: 1em;
-    color: white;
-}
-
-#resume{
-    height: 100%;
-    width: 100%;
 }

@@ -4,122 +4,120 @@
   <title>Janakitti Ratana</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="assets/css/main.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto+Mono" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script src="/path/to/parallax.js"></script>
-  <script src="main.js"></script>
+  <script src="assets/js/main.js"></script>
 </head>
 <body onload="displayMessage();">
 
-<a href="./resume.html"><div class="resumeButton"><p class="resumeText">MY RESUME</p></div></a>
-<!--<marquee behavior="scroll" direction="left"></marquee>-->
+    <a href="./resume.html"><div class="resumeButton"><p class="resumeText">MY RESUME</p></div></a>
+    <!--<marquee behavior="scroll" direction="left"></marquee>-->
 
-<div class="parallax__layer parallax__layer--back">
-    <div class="parallax title-area">
-    <img class="background" src="background.jpg" alt="hey, what happened to my wallpaper?">
-      <h1>JANAKITTI</h1>
-      <p id="textToChange" class="subtitle">...</p>
-      <!--ya &#9679; na &#9679; kit-->
-    </div>
-</div>
+    <div class="mainContainer">
+        <div class="titleContainer">
+            <div class="parallax title-area">
+            <img class="background parallaxContainer" src="./images/background.jpg" alt="hey, what happened to my wallpaper?">
+              <h1>JANAKITTI</h1>
+              <p id="textToChange" class="subtitle">...</p>
+              <!--ya &#9679; na &#9679; kit-->
+            </div>
+        </div>
 
-    <div class="container">
-        <div class="sitter-container"><img class="sitter" src="sitter.png" alt=""></div>
-        <div class="body-platform">
-            <table class="skeleton-about">
-                <tr>
-                    <td>
-                        <div class="container-profile-link">
-                            <a href="https://github.com/janakitti"><img class="link-image" src="link-github.png" alt="."></a>
-                            <a href="https://devpost.com/janakitti"><img class="link-image" src="link-devpost.png" alt="."></a>
-                            <div class="profileRing"><img class="profile-pic" src="profile-pic.JPG" alt="oops"></div>
-                            <a href="https://www.instagram.com/janakitti/"><img class="link-image" src="link-instagram.png" alt="."></a>
-                            <a href="https://www.youtube.com/channel/UCqDA91GZPdKF69dodlUE7xA"><img class="link-image" src="link-youtube.png" alt="."></a>
+        <div class="container">
+            <div class="sitter-container"><img class="sitter" src="./images/sitter.png" alt=""></div>
+            <div class="body-platform">
+                <table class="skeleton-about">
+                    <tr>
+                        <td>
+                            <div class="container-profile-link">
+                                <a href="https://github.com/janakitti"><img class="link-image" src="./images/link-github.png" alt="."></a>
+                                <a href="https://devpost.com/janakitti"><img class="link-image" src="./images/link-devpost.png" alt="."></a>
+                                <div class="profileRing"><img class="profile-pic" src="./images/profile-pic.JPG" alt="oops"></div>
+                                <a href="https://www.instagram.com/janakitti/"><img class="link-image" src="./images/link-instagram.png" alt="."></a>
+                                <a href="https://www.youtube.com/channel/UCqDA91GZPdKF69dodlUE7xA"><img class="link-image" src="./images/link-youtube.png" alt="."></a>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="about-head">Hello</p>
+                            <p class="about">My name is Janakitti (it's pronounced ya-na-kit). I'm a grade 12 student from Mississauga, Ontario and I have a passion for creating things. I enjoy computer science, graphic design and music and am always looking for unique ways to combine them. I also like polar bears. </p>
+                        </td>
+                    </tr>
+                </table>
+
+                <table class="skeleton-body">
+                    <tr>
+                        <td class="content-head">Toolbox</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="content-body"> These are some of the skills that I've picked up through my experiences. I'm always on the lookout for more opportunities to take on, experiences to explore, and skills to master.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="skillsList">
+                                <div class="skillItemShape"><p class="skillItem" style="color: #86b300">Python</p></div>
+                                <div class="skillItemShape"><p class="skillItem" style="color: #008ae6">Java</p></div>
+                                <div class="skillItemShape"><p class="skillItem" style="color: #ff6600">HTML</p></div>
+                                <div class="skillItemShape"><p class="skillItem" style="color: #ff3399">CSS</p></div>
+                                <div class="skillItemShape"><p class="skillItem" style="color: #009999">JavaScript</p></div>
+                                <div class="skillItemShape"><p class="skillItem" style="color: #cc6600">Firebase</p></div>
+                                <div class="skillItemShape"><p class="skillItem" style="color: #b300b3">Boostrap 4</p></div>
+                                <div class="skillItemShape"><p class="skillItem" style="color: #7575a3">Git</p></div>
+                                <div class="skillItemShape"><p class="skillItem" style="color: #ff9900">Adobe Illustrator</p></div>
+                                <div class="skillItemShape"><p class="skillItem" style="color: #600080">iMovie</p></div>
+                                <div class="skillItemShape"><p class="skillItem" style="color: #ff4d4d">Motion 5</p></div>
+                                <div class="skillItemShape"><p class="skillItem" style="color: #ff751a">PowerPoint</p></div>
+                                <div class="skillItemShape"><p class="skillItem" style="color: #558000">Guitar</p></div>
+                                <div class="skillItemShape"><p class="skillItem" style="color: #ffcc33">Alto Sax</p></div>
+                                <br>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="content-head"><br>My Portfolio</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="content-body">Check out some of the cool things I've done!</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        </td>
+                    </tr>
+
+                </table>
+                <div class="card-projects">
+                    <div class="card-home">
+                        <a href="./experiences.html"><img class="card-home-image" src="card-images/experience.jpg" style="filter:hue-rotate(0deg"></a>
+                        <div class="card-container">
+                            <p class="card-home-title"><b>EXPERIENCES</b></p>
+                            <p class="card-body">Have a read through some of the cool experiences I've had!</p>
                         </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p class="about-head">Hello</p>
-                        <p class="about">My name is Janakitti (it's pronounced ya-na-kit). I'm a grade 12 student from Mississauga, Ontario and I have a passion for creating things. I enjoy computer science, graphic design and music and am always looking for unique ways to combine them. I also like polar bears. </p>
-                    </td>
-                </tr>
-            </table>
-
-            <table class="skeleton-body">
-                <tr>
-                    <td class="content-head">Toolbox</td>
-                </tr>
-                <tr>
-                    <td>
-                        <p class="content-body"> These are some of the skills that I've picked up through my experiences. I'm always on the lookout for more opportunities to take on, experiences to explore, and skills to master.</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <div class="skillsList">
-                            <div class="skillItemShape"><p class="skillItem" style="color: #86b300">Python</p></div>
-                            <div class="skillItemShape"><p class="skillItem" style="color: #008ae6">Java</p></div>
-                            <div class="skillItemShape"><p class="skillItem" style="color: #ff6600">HTML</p></div>
-                            <div class="skillItemShape"><p class="skillItem" style="color: #ff3399">CSS</p></div>
-                            <div class="skillItemShape"><p class="skillItem" style="color: #009999">JavaScript</p></div>
-                            <div class="skillItemShape"><p class="skillItem" style="color: #cc6600">Firebase</p></div>
-                            <div class="skillItemShape"><p class="skillItem" style="color: #b300b3">Boostrap 4</p></div>
-                            <div class="skillItemShape"><p class="skillItem" style="color: #7575a3">Git</p></div>
-                            <div class="skillItemShape"><p class="skillItem" style="color: #ff9900">Adobe Illustrator</p></div>
-                            <div class="skillItemShape"><p class="skillItem" style="color: #600080">iMovie</p></div>
-                            <div class="skillItemShape"><p class="skillItem" style="color: #ff4d4d">Motion 5</p></div>
-                            <div class="skillItemShape"><p class="skillItem" style="color: #ff751a">PowerPoint</p></div>
-                            <div class="skillItemShape"><p class="skillItem" style="color: #558000">Guitar</p></div>
-                            <div class="skillItemShape"><p class="skillItem" style="color: #ffcc33">Alto Sax</p></div>
-                            <br>
+                    </div>
+                    <div class="card-home">
+                        <a href="./projects.html"><img class="card-home-image" src="card-images/projects.jpg" style="filter:hue-rotate(0deg"></a>
+                        <div class="card-container">
+                            <p class="card-home-title"><b>PROJECTS</b></p>
+                            <p class="card-body">Check out some of the interesting projects I've worked on!</p>
                         </div>
-                    </td>
-                </tr>
-
-                <tr>
-                    <td class="content-head"><br>My Portfolio</td>
-                </tr>
-                <tr>
-                    <td>
-                        <p class="content-body">Check out some of the cool things I've done!</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                    </td>
-                </tr>
-
-            </table>
-            <div class="card-projects">
-                <div class="card-home">
-                    <a href="./experiences.html"><img class="card-home-image" src="card-images/experience.jpg" style="filter:hue-rotate(0deg"></a>
-                    <div class="card-container">
-                        <p class="card-home-title"><b>EXPERIENCES</b></p>
-                        <p class="card-body">Have a read through some of the cool experiences I've had!</p>
                     </div>
-                </div>
-                <div class="card-home">
-                    <a href="./projects.html"><img class="card-home-image" src="card-images/projects.jpg" style="filter:hue-rotate(0deg"></a>
-                    <div class="card-container">
-                        <p class="card-home-title"><b>PROJECTS</b></p>
-                        <p class="card-body">Check out some of the interesting projects I've worked on!</p>
-                    </div>
-                </div>
-                <div class="card-home">
-                    <a href="./achievements.html"><img class="card-home-image" src="card-images/achievements.jpg" style="filter:hue-rotate(0deg"></a>
-                    <div class="card-container">
-                        <p class="card-home-title"><b>ACHIEVEMENTS</b></p>
-                        <p class="card-body">Take a look at some of the things I've achieved!</p>
+                    <div class="card-home">
+                        <a href="./achievements.html"><img class="card-home-image" src="card-images/achievements.jpg" style="filter:hue-rotate(0deg"></a>
+                        <div class="card-container">
+                            <p class="card-home-title"><b>ACHIEVEMENTS</b></p>
+                            <p class="card-body">Take a look at some of the things I've achieved!</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
     </div>
-
-
-
 </body>
 </html>
