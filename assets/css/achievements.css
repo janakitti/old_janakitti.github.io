@@ -53,10 +53,10 @@ h1 {
 .itemTitle {
     font-family: Open Sans;
     font-weight: bold;
-    font-size: 4vw;
+    font-size: 2vw;
     color: black;
     margin-top: 0vh;
-    margin-bottom: 5vh;
+    margin-bottom: 3vh;
     text-align: left;
     line-height: 0%;
 }
@@ -76,7 +76,7 @@ h1 {
     positon: absolute;
     height: 100%;
     width: 80%;
-    margin-top: 40vh;
+    margin-top: 50vh;
     box-sizing: border-box;
     padding: 4vw;
     background: white;
@@ -98,34 +98,6 @@ h1 {
     z-index: 1
 }
 
-.sideContainerTop {
-    margin: left;
-    margin-left: 0vw;
-    positon: absolute;
-    height: 100%;
-    width: 80%;
-    margin-top: 40vh;
-    box-sizing: border-box;
-    padding: 4vw;
-    background: white;
-    opacity: 1;
-    z-index: 1
-}
-
-.sideContainer {
-    margin: left;
-    margin-left: 0vw;
-    positon: absolute;
-    height: 100%;
-    width: 80%;
-    margin-top: 0vh;
-    box-sizing: border-box;
-    padding: 4vw;
-    background: white;
-    opacity: 1;
-    z-index: 1
-}
-
 .special1 {
     font-family: Lato;
     font-weight: bold;
@@ -135,11 +107,18 @@ h1 {
     line-height: 2em;
 }
 
+.date {
+    color: #07B8C7;
+    font-weight: lighter;
+    font-size: 0.7em;
+    vertical-align: middle;
+}
+
 .structure {
 }
 
 .colA {
-    width: 50%;
+    width: 80%;
     vertical-align: top;
 }
 
