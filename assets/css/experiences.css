@@ -1,5 +1,8 @@
 body {
     background-color: white;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -39,21 +42,11 @@ h1 {
     z-index: 1;
 }
 
-.pageTitle {
-    font-family: Montserrat;
-    font-weight: bold;
-    font-size: 4vw;
-    color: white;
-    margin-top: 15%;
-    text-align: center;
-    line-height: 20%;
-    z-index: 0;
-}
 
 .itemTitle {
     font-family: Open Sans;
     font-weight: bold;
-    font-size: 4vw;
+    font-size: 2vw;
     color: black;
     margin-top: 0vh;
     margin-bottom: 5vh;
@@ -76,7 +69,7 @@ h1 {
     positon: absolute;
     height: 100%;
     width: 80%;
-    margin-top: 40vh;
+    margin-top: 10vh;
     box-sizing: border-box;
     padding: 4vw;
     background: white;
@@ -104,7 +97,7 @@ h1 {
     positon: absolute;
     height: 100%;
     width: 80%;
-    margin-top: 40vh;
+    margin-top: 10vh;
     box-sizing: border-box;
     padding: 4vw;
     background: white;
@@ -126,11 +119,31 @@ h1 {
     z-index: 1
 }
 
+.headBanner {
+    height: 30%;
+    width: 100%;
+    margin:0;
+    padding:4vw;
+    background: rgb(185,0,0);
+    background: linear-gradient(0deg, rgba(185,0,0,1) 0%, rgba(255,0,76,1) 100%);
+}
+
+.pageTitle {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 4vw;
+    color: white;
+    margin-top: 10%;
+    text-align: Left;
+    line-height: 0%;
+    z-index: 0;
+}
+
 .special1 {
     font-family: Lato;
     font-weight: bold;
     font-size: 1.20em;
-    color: grey;
+    color: #b70011;
     text-align: justify;
     line-height: 2em;
 }
@@ -150,6 +163,8 @@ h1 {
 .sideImage {
     position: absolute;
     display: absolute;
+    object-fit: cover;
+    height: 30%;
     width: 25%;
 }
 
@@ -230,7 +245,8 @@ h1 {
     padding-bottom: 0vw;
     padding-top: 0vw;
     border-radius: 50px;
-    background: #00cccc;
+    background: rgb(185,0,0);
+    background: linear-gradient(0deg, rgba(185,0,0,1) 0%, rgba(255,0,76,1) 100%);
     box-shadow: 0px 5px 15px #595959;
     opacity: 1;
     z-index: 100;

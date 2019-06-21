@@ -1,5 +1,8 @@
 body {
     background-color: white;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -39,14 +42,23 @@ h1 {
     z-index: 1;
 }
 
+.headBanner {
+    height: 30%;
+    width: 100%;
+    margin:0;
+    padding:4vw;
+    background: rgb(213,148,0);
+    background: linear-gradient(0deg, rgba(213,148,0,1) 0%, rgba(233,202,3,1) 100%);
+}
+
 .pageTitle {
     font-family: Montserrat;
     font-weight: bold;
     font-size: 4vw;
     color: white;
-    margin-top: 15%;
-    text-align: center;
-    line-height: 20%;
+    margin-top: 10%;
+    text-align: Left;
+    line-height: 0%;
     z-index: 0;
 }
 
@@ -55,7 +67,7 @@ h1 {
     font-weight: bold;
     font-size: 2vw;
     color: black;
-    margin-top: 0vh;
+    margin-top: -5vh;
     margin-bottom: 3vh;
     text-align: left;
     line-height: 0%;
@@ -72,13 +84,14 @@ h1 {
 
 .textContainerTop {
     margin: left;
-    margin-left: 5vw;
+    margin-left: 0vw;
     positon: absolute;
     height: 100%;
     width: 80%;
-    margin-top: 50vh;
+    margin-top: 10vh;
     box-sizing: border-box;
     padding: 4vw;
+    padding-left: 4vw;
     background: white;
     opacity: 1;
     z-index: 1
@@ -86,13 +99,14 @@ h1 {
 
 .textContainer {
     margin: left;
-    margin-left: 5vw;
+    margin-left: 0vw;
     positon: absolute;
     height: 100%;
     width: 80%;
     margin-top: 0vh;
     box-sizing: border-box;
     padding: 4vw;
+    padding-left: 4vw;
     background: white;
     opacity: 1;
     z-index: 1
@@ -108,18 +122,25 @@ h1 {
 }
 
 .date {
-    color: #07B8C7;
+    color: rgb(213,148,0);
     font-weight: lighter;
     font-size: 0.7em;
     vertical-align: middle;
 }
 
 .structure {
+    margin-left: 7%;
+    margin-top: 00%;
+    border-left: 0.5vw solid black;
 }
 
 .colA {
     width: 80%;
     vertical-align: top;
+}
+
+.sideCol {
+    width: 5%;
 }
 
 .spacer {
@@ -131,6 +152,25 @@ h1 {
     display: absolute;
     width: 25%;
 }
+
+.line {
+    height: 100%;
+    width: 5px;
+    color: black;
+}
+
+.dot-container {
+    position: relative;
+    display: relative;
+    left: -5.5vw;
+    vertical-align: middle;
+    height: 2vw;
+    width: 2vw;
+    background-color: black;
+    border-radius: 100px;
+    z-index: 1000;
+}
+
 
 /* LINKS */
 .backLink:link {
@@ -209,7 +249,8 @@ h1 {
     padding-bottom: 0vw;
     padding-top: 0vw;
     border-radius: 50px;
-    background: #00cccc;
+    background: rgb(213,148,0);
+    background: linear-gradient(0deg, rgba(213,148,0,1) 0%, rgba(233,202,3,1) 100%);
     box-shadow: 0px 5px 15px #595959;
     opacity: 1;
     z-index: 100;

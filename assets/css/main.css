@@ -1,6 +1,7 @@
 body {
     background-color: #f2f2f2;
     margin: 0;
+
 }
 
 h1 {
@@ -13,6 +14,8 @@ h1 {
     line-height:  20%;
     z-index: 0;
 }
+
+
 
 .background {
     height: 90%;
@@ -29,7 +32,7 @@ h1 {
     background-size: cover
 }
 
-.subtitle {
+#subtitle {
     font-family: Montserrat;
     font-weight: bold;
     font-size: 2vw;
@@ -38,6 +41,10 @@ h1 {
     text-align: center;
     line-height: 0%;
     z-index: 1;
+}
+
+.dynamic {
+    text-align: center;
 }
 
 .pageTitle {
@@ -50,6 +57,8 @@ h1 {
     line-height: 20%;
     z-index: 0;
 }
+
+
 
 /*
 .titleContainer {
@@ -468,6 +477,41 @@ s {
 }
 
 
+
+.footer {
+    display: absolute;
+    background-color: #2d2d2d;
+    height: 25vh;
+    margin: 0%;
+    margin-top: 5vh;
+    padding-top: 10vh;
+    width: 100%;
+    box-shadow: 0px 0px 100px #595959;
+}
+
+.footerText {
+    font-family: Open Sans;
+    font-weight: regular;
+    font-size: 1em;
+    word-wrap: break-word;
+    color: #d8d8d8;
+    text-align: left;
+    padding-left: 10vw;
+    padding-top: 0vh;
+
+}
+
+.footerTable {
+    width: 100%;
+}
+
+.footerCol {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    width: 50%;
+    border-color: white;
+}
+
 /* RESUME */
 .resumeButton {
     position: fixed;
@@ -492,6 +536,7 @@ s {
     font-size: 1em;
     color: white;
 }
+
 
 #resume{
     height: 100%;
@@ -532,3 +577,14 @@ s {
         text-align: center;
     }
 }
+
+
+
+
+
+
+  /* Make the image fully responsive */
+  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }

@@ -4,6 +4,8 @@
     <title>Janakitti Ratana</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" type="image/png" href="images/sitter.png"/>
     <link rel="stylesheet" href="assets/css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto+Mono" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -11,7 +13,7 @@
     <script src="assets/js/main.js"></script>
 </head>
 
-<body onload="displayMessage();">
+<body>
     <a href="./resume.html"><div class="resumeButton"><p class="resumeText">MY RESUME</p></div></a>
     <!--<marquee behavior="scroll" direction="left"></marquee>-->
     <div class="mainContainer">
@@ -21,8 +23,16 @@
             <div class="parallax title-area">
             <img class="background parallaxContainer" src="./images/background.jpg" alt="hey, what happened to my wallpaper?">
               <h1>janakitti</h1>
-              <p id="textToChange" class="subtitle">...</p>
+              <!-- <p id="textToChange" class="subtitle">...</p> -->
+
               <!--ya &#9679; na &#9679; kit-->
+              <div class="dynamic">
+                  <span
+                      id="subtitle" class="txt-rotate"
+                      data-period="2000"
+                      data-rotate='[ "creator", "designer", "developer", "musician", "artist", "wizard" ]'>
+                  </span>
+              </div>
             </div>
         </div>
 
@@ -94,9 +104,13 @@
                     <tr>
                         <td class="content-head"><br>Portfolio</td>
                     </tr>
+
                     <tr>
                         <td>
-                            <p class="content-body">Check out some of the cool things I've done!</p>
+
+
+
+
                         </td>
                     </tr>
                     <tr>
@@ -128,8 +142,35 @@
                         </div>
                     </div>
                 </div>
+
+
             </div>
         </div>
+        <div class="footer">
+            <div class="footerText">
+                <table class="footerTable">
+
+                    <tr>
+                        <td class="footerCol">Janakitti Ratan-Rueangsri</td>
+                        <td class="footerCol">LinkedIn</td>
+                    </tr>
+                    <tr>
+                        <td class="footerCol">Website created with just HTML | CSS | JavaScript</td>
+                        <td class="footerCol">Github</td>
+                    </tr>
+                    <tr>
+                        <td class="footerCol"></td>
+                        <td class="footerCol">DevPost</td>
+                    </tr>
+                    <tr>
+                        <td class="footerCol">Janakitti</td>
+                        <td class="footerCol">Instagram</td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
     </div>
+
 </body>
 </html>
