@@ -481,10 +481,10 @@ s {
 .footer {
     display: absolute;
     background-color: #2d2d2d;
-    height: 25vh;
     margin: 0%;
     margin-top: 5vh;
     padding-top: 10vh;
+    padding-bottom: 10vh;
     width: 100%;
     box-shadow: 0px 0px 100px #595959;
 }
@@ -548,8 +548,12 @@ s {
 
 /* MOBILE FORMATTING */
 @media (max-width: 879px) {
+    body {
+        background: rgb(0,173,218);
+        background: linear-gradient(180deg, rgba(0,173,218,1) 0%, rgba(0,114,134,1) 100%);
+    }
     .body-platform {
-        margin-top: 10%;
+        margin-top: 5%;
         positon: absolute;
         width: 100%;
 
@@ -575,6 +579,82 @@ s {
         padding-right: 1vw;
         padding-left: 1vw;
         text-align: center;
+    }
+    h1 {
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 15vw;
+        color: white;
+        margin-top: 20%;
+        text-align: center;
+        line-height:  20%;
+        z-index: 0;
+    }
+
+    .container-profile-link {
+        height: 30vh;
+        align-items: center;
+        position: relative;
+        border-spacing: 0em;
+        text-align: center;
+    }
+    .link-image {
+        height: 0px;
+        width: 0px;
+        border-color: #d9d9d9;
+        display: inline-block;
+        margin: 2vw;
+
+        border-width: 2px;
+        border-radius: 50%;
+    }
+
+    .profile-pic {
+        height: 150px;
+        width: 150px;
+        position: center;
+        border: 1vw solid #f2f2f2;
+        display: inline-block;
+        border-radius: 50%;
+        box-shadow: 0px 0px 30px #595959;
+    }
+
+    .background {
+        height: 0%;
+        width: 100%;
+
+        top: 0;
+        left: 0;
+
+        object-fit: cover;
+        position: absolute;
+        overflow: hidden;
+        z-index: -1;
+        background-position: 50% 400px;
+        background-size: cover;
+        background-color: black;
+    }
+
+    #subtitle {
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 5vw;
+        color: white;
+        margin-top: 0%;
+        text-align: center;
+        line-height: 0%;
+        z-index: 1;
+    }
+    .sitter-container {
+        position: absolute;
+        display: absolute;
+        left: 72%;
+        top: -19vw;
+        z-index: 1000;
+    }
+    .sitter {
+        height: 30vw;
+        width: 30vw;
     }
 }
 
