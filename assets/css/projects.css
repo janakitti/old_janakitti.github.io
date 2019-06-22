@@ -332,6 +332,9 @@ h1 {
 
 /* MOBILE FORMATTING */
 @media (max-width: 879px) {
+    body {
+        background: white;
+    }
     .body-platform {
         margin-top: 10%;
         positon: absolute;

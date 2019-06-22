@@ -65,12 +65,11 @@ h1 {
 .itemTitle {
     font-family: Open Sans;
     font-weight: bold;
-    font-size: 2vw;
+    font-size: 1.5em;
     color: black;
     margin-top: -5vh;
     margin-bottom: 3vh;
     text-align: left;
-    line-height: 0%;
 }
 
 .itemBody {
@@ -88,7 +87,7 @@ h1 {
     positon: absolute;
     height: 100%;
     width: 80%;
-    margin-top: 10vh;
+    margin-top: 1em;
     box-sizing: border-box;
     padding: 4vw;
     padding-left: 4vw;
@@ -210,33 +209,13 @@ h1 {
 
 /* MOBILE FORMATTING */
 @media (max-width: 879px) {
-    .body-platform {
-        margin-top: 10%;
-        positon: absolute;
-        width: 100%;
-
-        box-sizing: border-box;
-        padding: 4vw;
-        border-radius: 0px;
-        background: white;
-        /*background-image: url("x.png");*/
-        opacity: 1;
-        z-index: 1
-    }
-    .container-profile-link {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        align-content: space-around;
-        align-items: center;
-        position: relative;
-        width: 100%;
-        border-spacing: 0em;
-
-        padding-right: 1vw;
-        padding-left: 1vw;
-        text-align: center;
+    .date {
+        line-height: 2em;
+        margin-bottom: -1em;
+        color: rgb(213,148,0);
+        font-weight: lighter;
+        font-size: 0.7em;
+        vertical-align: middle;
     }
 }
 
