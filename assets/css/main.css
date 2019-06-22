@@ -495,6 +495,70 @@ s {
 
 
 
+.progressContainer {
+    position: center;
+    width: 70%;
+    height: 1.8em;
+    background-color: white;
+    border-radius: 0.5em;
+    margin: 0px auto;
+    box-shadow: 5px 5px 20px rgba(20, 20, 20, 0.2);
+}
+
+.progressItemA {
+    width: 8em;
+    height: 1.8em;
+    text-align: center;
+    background-color: #e53d3d;
+    border-radius: 0.5em;
+}
+
+.progressItemB {
+    width: 6em;
+    height: 1.8em;
+    text-align: center;
+    background-color: #642799;
+    border-radius: 0.5em;
+}
+
+.progressItemText {
+    font-family: Montserrat;
+    font-size: 1em;
+    color: white;
+    position: relative;
+    top: 15%;
+}
+
+.progressStatusA {
+    width: 0em;
+    height: 1.8em;
+    border-top-left-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    background-color: #e88b8b;
+
+    transition: all 5s ease-out 0s;
+    -webkit-transition: all 5s ease-out 0s;
+}
+
+.progressStatusA-animate {
+    width: 98%;
+}
+
+.progressStatusB {
+    width: 0em;
+    height: 1.8em;
+    border-top-left-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    background-color: #e2adff;
+
+    transition: all 5s ease-out 0s;
+    -webkit-transition: all 5s ease-out 0s;
+}
+
+.progressStatusB-animate {
+    width: 7em;
+}
+
 .footer {
     display: absolute;
     background-color: #2d2d2d;

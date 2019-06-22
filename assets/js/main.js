@@ -1,3 +1,12 @@
+function init() {
+  var d = document.getElementsByClassName('progressStatusA')[0];
+  d.className = d.className + " progressStatusA-animate";
+
+  var e = document.getElementsByClassName('progressStatusB')[0];
+  e.className = e.className + " progressStatusB-animate";
+}
+
+
 function displayMessage() {
     var messages = ["Hello",
                     "Hello",
@@ -55,6 +64,7 @@ TxtRotate.prototype.tick = function() {
 };
 
 window.onload = function() {
+  init();
   var elements = document.getElementsByClassName('txt-rotate');
   for (var i=0; i<elements.length; i++) {
     var toRotate = elements[i].getAttribute('data-rotate');
