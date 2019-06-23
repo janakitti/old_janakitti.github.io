@@ -16,6 +16,18 @@ h1 {
     z-index: 0;
 }
 
+.homeLink {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 1em;
+    color: white;
+    margin-left: 0.5em;
+    text-align: right;
+}
+
+
+
 .background {
     height: 90%;
     width: 100%;
@@ -124,9 +136,21 @@ h1 {
     height: 30%;
     width: 100%;
     margin:0;
-    padding:4vw;
-    background: rgb(185,0,0);
-    background: linear-gradient(0deg, rgba(185,0,0,1) 0%, rgba(255,0,76,1) 100%);
+    padding:0vw;
+    background: url(https://images.unsplash.com/photo-1486325212027-8081e485255e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+
+}
+
+.headBannerOverlay {
+    position: relative;
+    z-index: 100;
+    background: rgba(185,0,0,0.7);
+    background: linear-gradient(0deg, rgba(185,0,0,1) 0%, rgba(255,0,76,0.7) 100%);
+    padding: 4vw;
+    height: 100%;
+    width: 100%;
+    margin:0;
+
 }
 
 .pageTitle {
@@ -231,6 +255,31 @@ h1 {
         text-align: left;
         line-height: 1em;
         margin-bottom: -0.2em;
+    }
+
+    .resumeButton {
+        position: fixed;
+        right: 1em;
+        bottom: 1em;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        padding-bottom: 0vw;
+        padding-top: 0vw;
+        border-radius: 50px;
+        background: rgb(185,0,0);
+        background: linear-gradient(0deg, rgba(185,0,0,1) 0%, rgba(255,0,76,1) 100%);
+        box-shadow: 0px 5px 15px #595959;
+        opacity: 1;
+        z-index: 100;
+        text-align: center;
+    }
+
+    .resumeText {
+        position: relative;
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 1em;
+        color: white;
     }
 }
 

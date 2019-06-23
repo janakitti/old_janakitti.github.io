@@ -46,16 +46,14 @@ a {
 }
 
 .dynamic {
-
     text-align: center;
-
 }
 
 .dynamicContainer {
     background-color: grey;
-    border-radius: 100px;
-    padding-top: 2vh;
-    padding-bottom: 1vh;
+    border-radius: 100em;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
     width: 12vw;
     background: rgba(0, 0, 0, 0.9);
     margin: 0px auto;
@@ -514,7 +512,7 @@ s {
 }
 
 .progressItemB {
-    width: 6em;
+    width: 8em;
     height: 1.8em;
     text-align: center;
     background-color: #642799;
@@ -556,7 +554,7 @@ s {
 }
 
 .progressStatusB-animate {
-    width: 7em;
+    width: 29%;
 }
 
 .footer {
@@ -734,8 +732,8 @@ s {
     .dynamicContainer {
         background-color: grey;
         border-radius: 100px;
-        padding-top: 3vh;
-        padding-bottom: 2vh;
+        padding-top: 1.5em;
+        padding-bottom: 1em;
         width: 30vw;
         background: rgba(0, 0, 0, 0.9);
         margin: 0px auto;
@@ -752,6 +750,31 @@ s {
         height: 30vw;
         width: 30vw;
     }
+
+    .resumeButton {
+        position: fixed;
+        right: 1em;
+        bottom: 1em;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        padding-bottom: 0vw;
+        padding-top: 0vw;
+        border-radius: 50px;
+        background: #00cccc;
+        box-shadow: 0px 5px 25px #595959;
+        opacity: 1;
+        z-index: 100;
+        text-align: center;
+    }
+
+    .resumeText {
+        position: relative;
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 1em;
+        color: white;
+    }
+
 }
 
 
