@@ -539,7 +539,7 @@ s {
 }
 
 .progressStatusA-animate {
-    width: 98%;
+    width: calc(8em + 70%);
 }
 
 .progressStatusB {
@@ -554,7 +554,7 @@ s {
 }
 
 .progressStatusB-animate {
-    width: 29%;
+    width: calc(8em + 5%);
 }
 
 .footer {
