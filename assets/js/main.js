@@ -79,3 +79,15 @@ window.onload = function() {
   css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid white }";
   document.body.appendChild(css);
 };
+
+
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navBar").style.top = "0";
+  } else {
+    document.getElementById("navBar").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
