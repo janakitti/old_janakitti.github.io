@@ -258,6 +258,7 @@ h1 {
     }
 
     .resumeButton {
+        display: none;
         position: fixed;
         right: 1em;
         bottom: 1em;
