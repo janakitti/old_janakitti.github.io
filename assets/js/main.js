@@ -78,6 +78,7 @@ window.onload = function() {
   css.type = "text/css";
   css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid white }";
   document.body.appendChild(css);
+
 };
 
 
@@ -91,3 +92,14 @@ var currentScrollPos = window.pageYOffset;
   }
   prevScrollpos = currentScrollPos;
 }
+
+
+
+$(document).ready(function (){
+    $("#btn").click(function (){
+        document.querySelector('.body-platform').scrollIntoView({
+          behavior: 'auto'
+        });
+    });
+});
+
