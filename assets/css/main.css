@@ -975,6 +975,12 @@ s {
         background: rgb(197,218,224);
         background: linear-gradient(180deg, rgba(197,218,224,1) 0%, rgba(182,201,207,1) 100%);
     }
+
+    .parallaxContainer {
+        transform: none;
+        z-index: -1;
+    }
+
     .body-platform {
         margin-top: 5%;
         positon: absolute;
