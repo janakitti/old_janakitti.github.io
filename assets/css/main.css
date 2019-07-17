@@ -478,6 +478,10 @@ s {
     text-align: center;
 }
 
+.liveButton:hover {
+    background: #de447c;
+}
+
 .liveButtonLocked {
     position: relative;
     width: auto;
@@ -900,7 +904,7 @@ s {
 
 .footer {
     display: absolute;
-    background-color: #4f4f4f;
+    background-color: #222222;
     margin: 0%;
     margin-top: 5vh;
     padding-top: 10vh;
@@ -1005,7 +1009,7 @@ s {
         font-weight: bold;
         font-size: 15vw;
         color: white;
-        margin-top: 20%;
+        margin-top: 40%;
         text-align: center;
         line-height:  20%;
         z-index: 0;
@@ -1097,14 +1101,24 @@ s {
 
     .sitter-container {
         position: absolute;
-        display: absolute;
+        display: none;
         left: 72%;
         top: -19vw;
         z-index: 1000;
     }
+
     .sitter {
         height: 30vw;
         width: 30vw;
+    }
+
+    .container {
+        display: block;
+        position: relative;
+        bottom: 0;
+        align-items: right;
+        width: 100%;
+        z-index: 1;
     }
 
     .progressContainer {
@@ -1121,7 +1135,7 @@ s {
        position: relative;
        width: 100%;
        margin-top: 2em;
-       background-color: #222222;
+       background-color: #333333;
        box-shadow: inset 0px 0px 30px rgba(0, 0, 0, 1);
        height: auto;
        padding-top: 0.5em;

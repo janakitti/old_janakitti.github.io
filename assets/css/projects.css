@@ -143,8 +143,8 @@ h1 {
 .headBannerOverlay {
     position: relative;
     z-index: 100;
-    background: rgba(67,144,0,0.8);
-    background: linear-gradient(0deg, rgba(67,144,0,1) 0%, rgba(190,210,0,0.9) 100%);
+    background: rgb(156,175,64);
+    background: linear-gradient(180deg, rgba(156,175,64,1) 0%, rgba(126,145,31,0.8) 100%);
     padding: 4vw;
     height: 100%;
     width: 100%;
@@ -397,8 +397,7 @@ h1 {
         padding-bottom: 0vw;
         padding-top: 0vw;
         border-radius: 50px;
-        background: rgb(67,144,0);
-        background: linear-gradient(0deg, rgba(67,144,0,1) 0%, rgba(190,210,0,1) 100%);
+        background: rgb(156,175,64);
         box-shadow: 0px 5px 15px #595959;
         opacity: 1;
         z-index: 100;
@@ -424,8 +423,7 @@ h1 {
     padding-bottom: 0vw;
     padding-top: 0vw;
     border-radius: 50px;
-    background: rgb(67,144,0);
-    background: linear-gradient(0deg, rgba(67,144,0,1) 0%, rgba(190,210,0,1) 100%);
+    background: rgb(156,175,64);
     box-shadow: 0px 5px 15px #595959;
     opacity: 1;
     z-index: 100;
