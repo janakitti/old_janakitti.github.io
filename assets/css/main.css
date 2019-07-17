@@ -1117,41 +1117,64 @@ s {
         box-shadow: 5px 5px 20px rgba(20, 20, 20, 0.2);
     }
 
-    .liveSplit {
-        position: relative;
-        width: 100%;
-        margin-top: 2em;
-        background-color: #222222;
-        box-shadow: inset 0px 0px 30px rgba(0, 0, 0, 1);
-        height: auto;
-        padding-top: 0.5em;
-        padding-bottom: 2em;
-    }
+   .liveSplit {
+       position: relative;
+       width: 100%;
+       margin-top: 2em;
+       background-color: #222222;
+       box-shadow: inset 0px 0px 30px rgba(0, 0, 0, 1);
+       height: auto;
+       padding-top: 0.5em;
+       padding-bottom: 2em;
+   }
 
-    .liveTable {
-        display: block;
-        table-layout: fixed;
-        width: 100%;
-        margin-top: 2em;
-        border: hidden;
-    }
+   .liveSubject {
+       display: inline-block;
+       font-family: Raleway;
+       font-weight: lighter;
+       font-size: 1.5em;
+       color: white;
+       text-align: left;
+       margin-bottom: 0em;
+   }
 
-    .liveItemColumn {
-        width: 100%;
-    }
+   .liveTitle {
+       display: inline-block;
+       font-family: Raleway;
+       font-weight: bold;
+       font-size: 1.5em;
+       color: white;
+       text-align: left;
+       margin-bottom: 0em;
+   }
 
-    .liveImageColumn {
-        width: 0%;
-    }
+   .liveBody {
+       font-family: Raleway;
+       font-weight: 400;
+       font-size: 0.8em;
+       color: white;
+       text-align: left;
+   }
 
-    .liveImage {
+   .liveTable {
+       display: block;
+       table-layout: fixed;
+       width: 100%;
+       margin-top: 2em;
+       border: hidden;
+   }
+
+   .liveItemColumn {
+       width: 50%;
+   }
+
+   .liveImageColumn {
+       width: 50%;
+   }
+
+   .liveImage {
         display: none;
-        position: relative;
-        vertical-align: center;
-        object-fit: cover;
-        height: 10%;
-        width: auto;
-    }
+   }
 
     .resumeButton {
         position: fixed;
