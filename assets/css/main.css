@@ -44,13 +44,6 @@ a:visited {
     vertical-align: center;
     horizontal-align: center;
     width: 0.85em;
-
-    -webkit-animation-name: animationFooter;
-    -webkit-animation-duration: 1s;
-    animation-name: animationFooter;
-    animation-duration: 1s;
-    animation-delay: 3s;
-    animation-iteration-count: 3;
 }
 
 
@@ -59,12 +52,6 @@ a:visited {
     transform: rotate(135deg);
 }
 
-@-webkit-keyframes animationFooter {
-    from {color: #33cccc;}
-    33% {color: #cccc00;}
-    66% {color: #ff5050;}
-    to {color: #669999;}
- }
 
 
 #navBar {
@@ -1128,6 +1115,25 @@ s {
         border-radius: 0.5em;
         margin: 1em auto;
         box-shadow: 5px 5px 20px rgba(20, 20, 20, 0.2);
+    }
+
+    .liveSplit {
+        position: relative;
+        width: 100%;
+        margin-top: 2em;
+        background-color: #222222;
+        box-shadow: inset 0px 0px 30px rgba(0, 0, 0, 1);
+        height: auto;
+        padding-top: 0.5em;
+        padding-bottom: 2em;
+    }
+
+    .liveTable {
+        display: block;
+        table-layout: fixed;
+        width: 100%;
+        margin-top: 2em;
+        border: hidden;
     }
 
     .liveItemColumn {
