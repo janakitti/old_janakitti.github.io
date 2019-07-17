@@ -90,8 +90,8 @@ h1 {
     font-weight: bold;
     font-size: 1.5em;
     color: black;
-    margin-top: -15vh;
-    margin-bottom: 3vh;
+    margin-top: -1.2em;
+    margin-bottom: 0.5em;
     text-align: left;
 }
 
@@ -100,8 +100,8 @@ h1 {
     font-weight: bold;
     font-size: 1.5em;
     color: black;
-    margin-top: -5vh;
-    margin-bottom: 3vh;
+    margin-top: -1.4em;
+    margin-bottom: 0.5em;
     text-align: left;
 }
 
@@ -121,6 +121,7 @@ h1 {
     height: 100%;
     width: 80%;
     margin-top: 1em;
+    margin-bottom: -7em;
     box-sizing: border-box;
     padding: 4vw;
     padding-left: 4vw;
@@ -135,7 +136,8 @@ h1 {
     positon: absolute;
     height: 100%;
     width: 80%;
-    margin-top: 0vh;
+    margin-bottom: -6em;
+    margin-top: 3em;
     box-sizing: border-box;
     padding: 4vw;
     padding-left: 4vw;
@@ -164,6 +166,10 @@ h1 {
     margin-left: 7%;
     margin-top: 00%;
     border-left: 0.5vw solid black;
+}
+
+tr {
+    border: 0.5vw solid black;
 }
 
 .colA {
@@ -196,6 +202,7 @@ h1 {
     display: relative;
     left: -5.5vw;
     vertical-align: middle;
+    top: 0vh;
     height: 2vw;
     width: 2vw;
     background-color: black;
@@ -249,6 +256,30 @@ h1 {
         font-weight: lighter;
         font-size: 0.7em;
         vertical-align: middle;
+    }
+
+    .itemTitle {
+        font-family: Open Sans;
+        font-weight: bold;
+        font-size: 1.5em;
+        color: black;
+        margin-top: 2em;
+        margin-bottom: 1em;
+        text-align: left;
+    }
+
+    .itemTitleTop {
+        font-family: Open Sans;
+        font-weight: bold;
+        font-size: 1.5em;
+        color: black;
+        margin-top: 0.5em;
+        margin-bottom: 1em;
+        text-align: left;
+    }
+
+    .dot-container {
+        display: none;
     }
 
     .resumeButton {
