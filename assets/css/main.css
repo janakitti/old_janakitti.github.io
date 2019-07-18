@@ -1,5 +1,6 @@
 body {
-    background-color: #f2f2f2;
+    background-color: #00AACC;
+    background-color: #F2F2F2;
     /* #f2f2f2 */
     margin: 0;
 
@@ -116,13 +117,26 @@ a:visited {
     z-index: 10;
 }
 
-
 .frameText {
+    display: inline-block;
     font-family: Courier;
     font-size: 1em;
     color: white;
     padding-left: 1em;
 }
+
+.frameTextR {
+    display: inline-block;
+    position: absolute;
+    text-align: right;
+    right: 1em;
+    font-family: Courier;
+    font-size: 1em;
+    color: white;
+    padding-left: 1em;
+}
+
+
 
 #subtitle {
     font-family: Montserrat;
@@ -256,13 +270,14 @@ section h1 {
     margin: auto;
     positon: absolute;
     margin-top: 0%;
-
+    border-top: 0.5em solid #DDDDDD;
     height: auto;
-    width: 80%;
+    width: 100%;
     box-sizing: border-box;
-    padding: 4vw;
-    border-radius: 2em;
-    background: white;
+    padding-top: 0vw;
+    padding-bottom: 0em;
+    border-radius: 0em;
+    background: #FFFFFF;
     box-shadow: 0px 10px 20px 4px rgba(0,0,0,0.44);
     opacity: 1;
     z-index: 100;
@@ -285,13 +300,15 @@ section h1 {
 .skeleton-about {
     position: relative;
     border-spacing: 1em;
-
-    padding-right: 6vw;
-    padding-left: 6vw;
+    margin-bottom: -2em;
+    padding: 2em;
+    padding-right: 10vw;
+    padding-left: 10vw;
     text-align: center;
     vertical-align: middle;
 
     border: 1px solid black;
+    background-color: white;
     border: hidden;
 }
 
@@ -320,10 +337,15 @@ section h1 {
     display: inline-block;
     border-radius: 50%;
     box-shadow: 0px 0px 20px #595959;
+    margin: 0em;
 }
 
 .profile-pic:hover {
     box-shadow: 0px 0px 40px #595959;
+}
+
+.profileRing {
+
 }
 
 .link-image {
@@ -354,18 +376,23 @@ section h1 {
 
 .skeleton-body {
     position: relative;
-    margin-top: 3em;
-    width: 100%;
+    margin-top: 0em;
+    width: 90%;
+    left: 5%;
     border-spacing: 0em;
 
-    padding-right: 6vw;
-    padding-left: 6vw;
+    padding: 2em;
+    padding-right: 10vw;
+    padding-left: 10vw;
+
     text-align: center;
     vertical-align: middle;
 
     border: 1px solid black;
+    background-color: white;
     border-style: hidden;
 }
+
 
 .content-head {
     font-family: Raleway;
@@ -405,14 +432,14 @@ s {
 .liveSplit {
     position: relative;
     width: 100%;
-    margin-left: -4vw;
-    padding-right: 8vw;
     margin-top: 2em;
+    margin-bottom: 2em;
     background-color: #222222;
-    box-shadow: inset 0px 0px 30px rgba(0, 0, 0, 1);
+    box-shadow: inset 0px 0px 30px rgba(0, 0, 0, 0.4);
     height: auto;
-    padding-top: 0.5em;
+    padding-top: 0em;
     padding-bottom: 2em;
+    overflow-x: scroll;
 }
 
 .liveSubject {
@@ -538,7 +565,7 @@ s {
 .skillItem {
     font-family: 'Roboto Mono';
     font-weight: bold;
-    font-size: 2.5vmin;
+    font-size: 1em;
     display: inline;
     padding: 10px;
 }
@@ -547,7 +574,7 @@ s {
 .skillItemSmall {
     font-family: 'Roboto Mono';
     font-weight: bold;
-    font-size: 2vmin;
+    font-size: 0.8em;
     display: inline;
     padding: 8px;
 }
@@ -868,6 +895,12 @@ s {
 
 .live-progressItemText {
     display: none;
+    font-family: Montserrat;
+    font-size: 1em;
+    color: white;
+    margin-top: 0.3em;
+    float: center;
+    vertical-align: middle;
 }
 
 .live-progressStatusContainer {
@@ -905,9 +938,11 @@ s {
     display: absolute;
     background-color: #222222;
     margin: 0%;
-    margin-top: 5vh;
+    margin-top: 1em;
     padding-top: 10vh;
     padding-bottom: 10vh;
+    bottom: 0;
+    horizontal-align: center;
     width: 100%;
     /*box-shadow: 0px 0px 100px black;*/
 }
@@ -938,8 +973,8 @@ s {
 /* RESUME */
 .resumeButton {
     position: fixed;
-    right: 2vw;
-    bottom: 2vw;
+    right: 1vw;
+    bottom: 1vw;
     padding-left: 2vw;
     padding-right: 2vw;
     padding-bottom: 0vw;
@@ -982,10 +1017,10 @@ s {
     }
 
     .body-platform {
-        margin-top: 5%;
+        margin-top: 0%;
+        margin-bottom: -10em;
         positon: absolute;
         width: 100%;
-
         box-sizing: border-box;
         padding: 4vw;
         border-radius: 0px;
@@ -994,27 +1029,41 @@ s {
         opacity: 1;
         z-index: 1
     }
-    .container-profile-link {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        align-content: space-around;
-        align-items: center;
+
+    .skeleton-about {
         position: relative;
+        border-spacing: 1em;
+        margin-bottom: -2em;
+        padding: 2em;
+        padding-right: 10vw;
+        padding-left: 10vw;
+        left: 0;
+        text-align: center;
+        vertical-align: middle;
+
+        border: 1px solid black;
+        background-color: white;
+        border: hidden;
+    }
+
+    .container-profile-link {
+        align-items: center;
+        position: absolute;
         width: 100%;
         border-spacing: 0em;
-
         padding-right: 1vw;
         padding-left: 1vw;
+        margin-top: 2em;
+        margin-bottom: 2em;
         text-align: center;
     }
+
     h1 {
         font-family: Montserrat;
         font-weight: bold;
         font-size: 15vw;
         color: white;
-        margin-top: 40%;
+        vertical-align: center;
         text-align: center;
         line-height:  20%;
         z-index: 0;
@@ -1027,6 +1076,7 @@ s {
         border-spacing: 0em;
         text-align: center;
     }
+
     .link-image {
         height: 0px;
         width: 0px;
@@ -1042,10 +1092,12 @@ s {
         height: 150px;
         width: 150px;
         position: center;
+        horizontal-align: center;
         border: 0.8em solid #f2f2f2;
-        display: inline-block;
         border-radius: 50%;
         box-shadow: 0px 0px 30px #595959;
+        margin-top: -4em;
+        margin-bottom: -4em;
     }
 
     .background {
@@ -1054,7 +1106,6 @@ s {
 
         top: 0;
         left: 0;
-
         object-fit: cover;
         position: absolute;
         overflow: hidden;
@@ -1084,10 +1135,6 @@ s {
         border: 2px solid white;
         background: none;
         z-index: 1;
-    }
-
-    .frameText {
-        display: none;
     }
 
     .dynamic {
@@ -1120,7 +1167,7 @@ s {
     .container {
         display: block;
         position: relative;
-        bottom: 0;
+        bottom: 9em;
         align-items: right;
         width: 100%;
         z-index: 1;
@@ -1139,8 +1186,10 @@ s {
    .liveSplit {
        position: relative;
        width: 100%;
+       margin-left: -4vw;
+       padding-right: 8vw;
        margin-top: 2em;
-       background-color: #333333;
+       background-color: #222222;
        box-shadow: inset 0px 0px 30px rgba(0, 0, 0, 1);
        height: auto;
        padding-top: 0.5em;
@@ -1197,6 +1246,21 @@ s {
         display: none;
    }
 
+   .footer {
+       display: absolute;
+       background-color: #222222;
+       margin: 0%;
+       margin-top: 1em;
+       padding-top: 10vh;
+       padding-bottom: 10vh;
+       margin-left: -4vw;
+       padding-left: 8vw;
+       bottom: 0;
+       horizontal-align: center;
+       width: 100%;
+       /*box-shadow: 0px 0px 100px black;*/
+   }
+
     .resumeButton {
         position: fixed;
         right: 1em;
@@ -1207,7 +1271,7 @@ s {
         padding-top: 0vw;
         border-radius: 50px;
         background: #c49d00;
-        box-shadow: 0px 5px 25px #595959;
+        box-shadow: 0px 10px 20px 2px rgba(0,0,0,0.14);
         opacity: 1;
         z-index: 100;
         text-align: center;
