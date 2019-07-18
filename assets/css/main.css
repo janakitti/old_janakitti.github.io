@@ -1016,13 +1016,24 @@ s {
         z-index: -1;
     }
 
+    .frameTextR {
+        display: none;
+        position: absolute;
+        text-align: right;
+        right: 1em;
+        font-family: Courier;
+        font-size: 1em;
+        color: white;
+        padding-left: 1em;
+    }
+
     .body-platform {
         margin-top: 0%;
         margin-bottom: -10em;
         positon: absolute;
         width: 100%;
         box-sizing: border-box;
-        padding: 4vw;
+        padding: 0vw;
         border-radius: 0px;
         background: white;
         /*background-image: url("x.png");*/
@@ -1035,15 +1046,33 @@ s {
         border-spacing: 1em;
         margin-bottom: -2em;
         padding: 2em;
-        padding-right: 10vw;
-        padding-left: 10vw;
-        left: 0;
+        padding-right: 0vw;
+        padding-left: 0vw;
         text-align: center;
         vertical-align: middle;
 
         border: 1px solid black;
         background-color: white;
         border: hidden;
+    }
+
+    .skeleton-body {
+        position: relative;
+        margin-top: 0em;
+        width: 90%;
+        left: 5%;
+        border-spacing: 0em;
+
+        padding: 2em;
+        padding-right: 0vw;
+        padding-left: 0vw;
+
+        text-align: center;
+        vertical-align: middle;
+
+        border: 1px solid black;
+        background-color: white;
+        border-style: hidden;
     }
 
     .container-profile-link {
