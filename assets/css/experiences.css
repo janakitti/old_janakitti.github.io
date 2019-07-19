@@ -26,8 +26,6 @@ h1 {
     text-align: right;
 }
 
-
-
 .background {
     height: 90%;
     width: 100%;
@@ -138,7 +136,6 @@ h1 {
     margin:0;
     padding:0vw;
     background: url(https://images.unsplash.com/photo-1486325212027-8081e485255e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
-
 }
 
 .headBannerOverlay {
