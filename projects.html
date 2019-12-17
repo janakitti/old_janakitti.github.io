@@ -4,6 +4,7 @@
   <title>Janakitti Ratana</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="assets/css/projects.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto+Mono|Lato" rel="stylesheet">
@@ -11,88 +12,206 @@
   <script src="/path/to/parallax.js"></script>
 </head>
 <body>
+  <a href="./resume.html"><div class="resumeButton"><p class="resumeText">MY RESUME</p></div></a>
+  <div class="headBanner">
+    <div class="headBannerOverlay">
+      <p class="pageTitle">PROJECTS</p>
+      <a href="./index.html" class="homeLink">Home</a>
+    </div>
+  </div>
 
-<div class="parallax__layer parallax__layer--back">
-    <div class="parallax title-area">
-    <a href="./resume.html"><div class="resumeButton"><p class="resumeText">MY RESUME</p></div></a>
-    <div class="headBanner">
-      <div class="headBannerOverlay">
-        <p class="pageTitle">PROJECTS</p>
-        <a href="./index.html" class="homeLink">Home</a>
+
+<table class="stucture">
+<tr>
+    <td class="colA">
+      <div class="textContainer">
+        <div class="buttonArray">
+            <div class="buttonShape"><a href="#FedoraField"><p class="buttonItem" style="color: #99004d">FedoraField</p></a></div>
+            <div class="buttonShape"><a href="#Tangible"><p class="buttonItem" style="color: #5c8a8a">Tangible</p></a></div>
+            <div class="buttonShape"><a href="#artwork"><p class="buttonItem" style="color: #000000">artwork.jr</p></a></div>
+            <div class="buttonShape"><a href="#MAGNET"><p class="buttonItem" style="color: #b3b300">MAGNET</p></a></div>
+            <div class="buttonShape"><a href="#WizardOfColours"><p class="buttonItem" style="color: #e60000">WizardOfColours</p></a></div>
+            <div class="buttonShape"><a href="#Piing"><p class="buttonItem" style="color: #006699">Piing</p></a></div>
+            <div class="buttonShape"><a href="#DangerSense"><p class="buttonItem" style="color: #cc3300">DangerSense</p></a></div>
+            <div class="buttonShape"><a href="#EMS"><p class="buttonItem" style="color: #339933">EMS</p></a></div>
+            <br>
+        </div>
       </div>
-    </div>
-    </div>
-</div>
+    </td>
+</tr>
+<tr>
+    <td class="colA">
+      <div class="textContainer">
+        <div class="itemTitle"><a id="FedoraField">FedoraField</a></div>
+        <div class="itemBody">
+          <div class="skillItemShape"><p class="skillItemSmall skilltype_unity">Unity</p></div>
+          <div class="skillItemShape"><p class="skillItemSmall skilltype_ai">Adobe Illustrator</p></div>
+        <p>
+        FedoraField is a 2D top-down action video game where you play as a character with a magical fedora that has the ability to control gravitational and electromagnetic fields. That's it. No guns, swords, or sheilds. The object of the game is to bring as many Blue Orbs (scattered across the level) to a central Beacon as possible while avoiding Pink Enemies and their bullets. Be careful though, Orbs will shatter if they touch anything (including you!). Now how can this be possible when all you've got is this fancy hat?
+        </p>
+        </p>
+        <b>Blue Gravity: </b> Activate this to accelerate Blue Orbs towards you.
+        </p>
+        </p>
+        <b>Pinks Gravity: </b> Bring bullets shot by enemies towards you and into circular motion. This is your only way to fire back! Release your Pink Gravity to send bullets on a tangent and back to your enemy.
+        </p>
+        <b>Magnetic Field: </b> Attract metal blocks and walls in the environment to open up patheways or smash walls and enemies.
+        </p>
+        <b>Electric Field: </b> Induce a current in metal tunnels to activate engines and motors that can assist you in your battle.
+        </p>
+        <a href="https://github.com/janakitti/FedoraField"><div class="goButton"><p class="goText">Check it out</p></div></a>
+        </div>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td class="colA">
+      <div class="textContainer">
+        <div class="itemTitle"><a id="Tangible">Tangible</a></div>
+        <div class="itemBody">
+          <div class="skillItemShape"><p class="skillItemSmall skilltype_arduino">Arduino</p></div>
+          <div class="skillItemShape"><p class="skillItemSmall skilltype_unity">Unity</p></div>
+        <p>
+        Tangible is a universal touch-screen accessory that can be installed on any monitor to provide touch-screen functionality via USB. This was a 1A team final project for my Software Engineering course in which we set out to develop of creative yet functional product that involved both hardware and software. Tangible consists of an array of ultrasonic sensors that snaps onto to the top of a monitor or laptop screen and plugs into the computer with minimal setup. The device works by firing the ultrasonic sensors down the face of the screen and measuring the distance to the nearest obstruction (i.e. a finger) and mapping the detected position onto a position on the screen. Tangible offers various touch modes including webpage scrolling, freestyle painting, button pressing, and many more. We developed a "TangibleOS" in Unity to showcase a variety of apps made specifically to demonstrate the different ouch capabilities of Tangible. These apps include a paint app, a virtual guitar, binary calculator, driving game, and a 2d platformer.
+        </p>
+        <a href="https://git.uwaterloo.ca/jratanar/Tangible"><div class="goButton"><p class="goText">Repository</p></div></a>
+        <a href="https://git.uwaterloo.ca/jratanar/Tangible/blob/master/Report/SE_101_Final_Report.pdf"><div class="goButton"><p class="goText">Report</p></div></a>
+        <a href="https://drive.google.com/open?id=1kM2vjbJ3qhrA9mEzbtHrTarRtbbZrbqc"><div class="goButton"><p class="goText">Product Video</p></div></a>
+        </div>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td class="colA">
+      <div class="textContainer">
+        <div class="itemTitle"><a id="artwork">artwork.jr</a></div>
+        <div class="itemBody">
+          <div class="skillItemShape"><p class="skillItemSmall skilltype_ai">Adobe Illustrator</p></div>
+        <p>
+        artwork.jr is a visual arts portfolio where I showcase some of my graphics design work. On my spare time, I enjoy creating logos, posters, UI, and creative spins on artwork from the pop culture (i.e. turning songs into movie posters, turning movies into album covers, etc.)
+        </p>
+        <a href="https://www.instagram.com/artwork.jr/"><div class="goButton"><p class="goText">Explore</p></div></a>
+        </div>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td class="colA">
+      <div class="textContainer">
+        <div class="itemTitle"><a id="MAGNET">MAGNET</a></div>
+        <div class="itemBody">
+        <div class="skillItemShape"><p class="skillItemSmall skilltype_arduino">Arduino</p></div>
+        <div class="skillItemShape"><p class="skillItemSmall skilltype_rpi">Raspberry Pi</p></div>
+        <div class="skillItemShape"><p class="skillItemSmall skilltype_python">Python</p></div>
+        <div class="skillItemShape"><p class="skillItemSmall skilltype_html">OpenCV</p></div>
+        <p>
+        MAGNET is a four-wheeled robot that tracks and catches objects thrown at it, made as part of a team at Waterloo's Hack the North 2018. It uses a USB camera, Raspberry Pi, Arduino, and OpenCV for computer vision.
+        </p>
+        <a href="https://devpost.com/software/magnet"><div class="goButton"><p class="goText">Devpost</p></div></a>
+        </div>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td class="colA">
+      <div class="textContainer">
+        <div class="itemTitle"><a id="WizardOfColours">WizardOfColours</a></div>
+        <div class="itemBody">
+        <div class="skillItemShape"><p class="skillItemSmall skilltype_ppt">PowerPoint</p></div>
+        <div class="skillItemShape"><p class="skillItemSmall skilltype_motion5">Motion 5</p></div>
+        <div class="skillItemShape"><p class="skillItemSmall skilltype_imovie">iMovie</p></div>
+        <p>
+        WizardOfColours is a YouTube channel that showcases create and technical projects that were created using minimal technical resources. The channel was inspired by my dream of creating video games and animations despite not having the skills nor the software at the time to do so. The desire to create pushed me to discover...
+        </p>
+        </p>
+        <b>Chromatic Squares: </b> A full-featured platformer game built entirely using Microsoft PowerPoint and over 440 slides. The game features 7-levels with on-screen controls, a gravity system, powerups, animations, level-save and logic, and a soundtrack. This project was accomplished by using a network of hyperlinks between all the slides for control logic and timed transitions for animations.
+        </p>
+        </p>
+        <b>Paint Galaxy: </b> A cursor controlled video game where you move your cursor across an abstract land of moving figues, avoiding obstacles. The game features multiple levels and worlds and ends off with working boss. The boss stage includes an animated boss character witha health bar and the ability to fire bullets. The boss is attacked using mouse-over hyperlinks.
+        </p>
+        <b>Animation IRL: </b> This a 2-video series of an animated characted that explores the real world. This 2d character is made to seem like they are truly living in 3D space, interacting with physical objects and reacting to things such as light.
+        </p>
+        </p>
+        <b>8-bit Animations: </b> These are stop-motion animations created using Microsoft PowerPoint's shape graphics and timed transitions syned with music.
+        </p>
+        <a href="https://www.youtube.com/channel/UCqDA91GZPdKF69dodlUE7xA"><div class="goButton"><p class="goText">Let's see it!</p></div></a>
+        </div>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td class="colA">
+      <div class="textContainer">
+        <div class="itemTitle"><a id="Piing">Piing</a></div>
+        <div class="itemBody">
+        <div class="skillItemShape"><p class="skillItemSmall skilltype_python">Python</p></div>
+        <p>
+          Piing is an echolocation-inspired "VR" maze game where players where headphones, a Myo Arband, and hold a computer mouse in their hand. The objective was to navigate through a randomly generated grid maze by sending pings with their virtual sound gun towards the walls of the maze and waiting to hear its echo. The time delay between a ping and its echo would be proportional to the distance between the player and the wall they were facing. The play operates the controls all without any visual representation of the maze or their position in it.
+        </p>
+        <a href="https://devpost.com/software/piing"><div class="goButton"><p class="goText">Devpost</p></div></a>
+        </div>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td class="colA">
+      <div class="textContainer">
+        <div class="itemTitle"><a id="DangerSense">DangerSense</a></div>
+        <div class="itemBody">
+        <div class="skillItemShape"><p class="skillItemSmall skilltype_html">HTML</p></div>
+        <div class="skillItemShape"><p class="skillItemSmall skilltype_css">CSS</p></div>
+        <div class="skillItemShape"><p class="skillItemSmall skilltype_javascript">JavaScript</p></div>
+        <div class="skillItemShape"><p class="skillItemSmall skilltype_python">Python</p></div>
+        <p>
+        DangerSense is a web app that assess the level of danger around your current location using historical crime GPS data and presents a Danger Score. This project was made as part of a team at Cipher's Snowday '17 Hackathon, and won the API prize.
+        </p>
+        <a href="https://devpost.com/software/safety-way"><div class="goButton"><p class="goText">Devpost</p></div></a>
+        </div>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td class="colA">
+      <div class="textContainer">
+        <div class="itemTitle"><a id="EMS">EMS</a></div>
+        <div class="itemBody">
+          <div class="skillItemShape"><p class="skillItemSmall skilltype_java">Java</p></div>
+        <p>
+        The Employee Management System is a desktop application built in Java used to manage employee profiles. The application uses a hash table for efficient data storage and access. I applied object-oriented programming principles to improve the efficiency of the overall system.
+        </p>
+        </div>
+      </div>
+    </td>
+  </tr>
 
 
-            <div class="card-projects">
-                                <div class="projectTypeCard">
-                                  <img class="projectTypeCard-image" src="card-images/dangersense.jpg" style="filter:hue-rotate(45deg">
-                                  <div class="card-container">
-                                    <p class="card-title"><b>DangerSense</b></p>
-                                    <div class="eventItemShape"><p class="skillItemSmall" style="color: #ffffff">Hackathon: Snowday '17</p></div>
-                                    <br>
-                                    <div class="skillItemShape"><p class="skillItemSmall" style="color: #86b300">HTML</p></div>
-                                    <div class="skillItemShape"><p class="skillItemSmall" style="color: #ff3399">CSS</p></div>
-                                    <div class="skillItemShape"><p class="skillItemSmall" style="color: #009999">JavaScript</p></div>
-                                    <div class="skillItemShape"><p class="skillItemSmall" style="color: #7575a3">API</p></div>
-                                    <p class="card-body">A website that calculates the level of danger in your area based on real crime history data on the map.</p>
-                                  </div>
-                                </div>
-                                <div class="projectTypeCard">
-                                  <img class="projectTypeCard-image" src="card-images/chromaticsquares.jpg" style="filter:hue-rotate(90deg">
-                                  <div class="card-container">
-                                    <p class="card-title"><b>Chromatic Squares</b></p>
-                                    <div class="skillItemShape"><p class="skillItemSmall" style="color: #ff751a">PowerPoint</p></div>
-                                    <p class="card-body">A 7-level minimalist platformer designed and developed ENTIRELY using Microsoft PowerPoint. This project proves that you can create some incredible things with the everyday resources you have around you. It was inpired by the desire to create my very own video game and limited tools at hand.</p>
-                                  </div>
-                                </div>
-                                <div class="projectTypeCard">
-                                  <img class="projectTypeCard-image" src="card-images/wizardofcolour.jpg" style="filter:hue-rotate(0deg">
-                                  <div class="card-container">
-                                    <p class="card-title"><b>WizardOfColour</b></p>
-                                    <div class="skillItemShape"><p class="skillItemSmall" style="color: #ff751a">PowerPoint</p></div>
-                                    <div class="skillItemShape"><p class="skillItemSmall" style="color: #600080">iMovie</p></div>
-                                    <div class="skillItemShape"><p class="skillItemSmall" style="color: #ff4d4d">Motion 5</p></div>
-                                    <p class="card-body">A YouTube channel dedicated to sharing animations and electronic music recreations.</p>
-                                  </div>
-                                </div>
-                                <div class="projectTypeCard">
-                                  <img class="projectTypeCard-image" src="card-images/webprot.jpg" style="filter:hue-rotate(180deg">
-                                  <div class="card-container">
-                                    <p class="card-title"><b>Website Prototyping</b></p>
-                                    <div class="skillItemShape"><p class="skillItemSmall" style="color: #86b300">HTML</p></div>
-                                    <div class="skillItemShape"><p class="skillItemSmall" style="color: #ff3399">CSS</p></div>
-                                    <div class="skillItemShape"><p class="skillItemSmall" style="color: #009999">JavaScript</p></div>
-                                    <p class="card-body">Check out some alternate versions of my personal website.</p>
-                                  </div>
-                                </div>
-                                <div class="projectTypeCard">
-                                  <img class="projectTypeCard-image" src="card-images/pypixsheets.jpg" style="filter:hue-rotate(225deg">
-                                  <div class="card-container">
-                                    <p class="card-title"><b>Pyxel</b></p>
-                                    <div class="skillItemShape"><p class="skillItemSmall" style="color: #86b300">Python</p></div>
-                                    <div class="skillItemShape"><p class="skillItemSmall" style="color: #7575a3">Google Sheets APIs</p></div>
-                                    <p class="card-body">A Python program that allows you to generate pixel art using text on a Google Sheets document. This is one of my first experiences using APIs!</p>
-                                  </div>
-                                </div>
-                                <div class="projectTypeCard">
-                                  <img class="projectTypeCard-image" src="card-images/shapegallery.jpg" style="filter:hue-rotate(270deg">
-                                  <div class="card-container">
-                                    <p class="card-title"><b>ShapeGallery</b></p>
-                                    <div class="skillItemShape"><p class="skillItemSmall" style="color: #ff9900">Adobe Illustrator</p></div>
-                                    <p class="card-body">A graphic design project where I create minimalist artwork, application interfaces, and logos. Follow @shapegallery!</p>
-                                  </div>
-                                </div>
-                                <div class="projectTypeCard">
-                                  <img class="projectTypeCard-image" src="card-images/justncase.jpg" style="filter:hue-rotate(315deg">
-                                  <div class="card-container">
-                                    <p class="card-title"><b>Just 'N Case</b></p>
-                                    <div class="eventItemShape"><p class="skillItemSmall" style="color: #ffffff">SHAD Waterloo '17</p></div>
-                                    <p class="card-body">SHAD Entrepreneurship Cup project: A smartphone case that generates electricity to charge your phone using piezoelectric and triboelectric materials.</p>
-                                  </div>
-                                </div>
-                        </div>
+</table>
+
+
+
+
+
+<div class="footer">
+    <div class="footerText">
+        <table class="footerTable">
+            <tr>
+                <td class="footerCol">Janakitti Ratana-Rueangsri</td>
+                <td class="footerCol"><a href="https://www.linkedin.com/in/janakittiratana/">LinkedIn</a></td>
+            </tr>
+            <tr>
+                <td class="footerCol">Website created with HTML | CSS | JavaScript</td>
+                <td class="footerCol"><a href="https://github.com/janakitti">Github</a></td>
+            </tr>
+            <tr>
+                <td class="footerCol"></td>
+                <td class="footerCol"><a href="https://devpost.com/janakitti">DevPost</a></td>
+            </tr>
+            <tr>
+                <td class="footerCol">&lt;/&gt;</td>
+                <td class="footerCol"><a href="https://www.instagram.com/janakitti/">Instagram</a></td>
+            </tr>
+        </table>
+    </div>
 </div>
 
 </body>

@@ -79,10 +79,10 @@ h1 {
     margin-left: 5vw;
     positon: absolute;
     height: 100%;
-    width: 80%;
+    width: 50%;
     margin-top: 10vh;
     box-sizing: border-box;
-    padding: 4vw;
+    padding: 2em;
     background: white;
     opacity: 1;
     z-index: 1
@@ -92,11 +92,11 @@ h1 {
     margin: left;
     margin-left: 5vw;
     positon: absolute;
-    height: 100%;
-    width: 80%;
+    height: auto;
+    width: 50%;
     margin-top: 0vh;
     box-sizing: border-box;
-    padding: 4vw;
+    padding: 2em;
     background: white;
     opacity: 1;
     z-index: 1
@@ -171,6 +171,8 @@ h1 {
 }
 
 .structure {
+    table-layout: fixed;
+    width: 10em;
 }
 
 .colA {
@@ -182,6 +184,45 @@ h1 {
     width: 50%;
     vertical-align: top;
 }
+
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.buttonArray {
+    background-color: white;
+    /*box-shadow: inset 0px 5px 10px 2px rgba(0,0,0,0.1);*/
+    height: auto;
+    border-radius: 50px;
+}
+
+.buttonItem {
+    font-family: 'Roboto Mono';
+    font-weight: bold;
+    font-size: 1em;
+    display: inline;
+    padding: 10px;
+}
+
+.buttonShape {
+    background-color: #f2f2f2;
+    padding: 1em;
+    margin: 1em;
+    display: inline-block;
+    border-radius: 30px;
+}
+
+.buttonShape:hover {
+    background-color: #DDDDDD;;
+}
+
+
+
+
+
 
 
 .spacer {
@@ -252,6 +293,14 @@ h1 {
         text-align: left;
         line-height: 1em;
         margin-bottom: -0.2em;
+    }
+
+    .buttonArray {
+        display: none;
+    }
+
+    .textContainer {
+        width: 90%;
     }
 
     .resumeButton {
