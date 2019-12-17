@@ -275,33 +275,45 @@ a {
 
 /* MOBILE FORMATTING */
 @media (max-width: 879px) {
-    .colA {
-        width: 100%;
-        vertical-align: top;
-    }
-    .colB {
-        display: none;
-        vertical-align: top;
-    }
-    .itemTitle {
-        font-family: Open Sans;
-        font-weight: bold;
-        font-size: 1.5em;
-        color: black;
-        margin-top: 0vh;
-        margin-bottom: 5vh;
-        text-align: left;
-        line-height: 1em;
-        margin-bottom: -0.2em;
-    }
+  body {
+      background: white;
+  }
+  .body-platform {
+      margin-top: 10%;
+      positon: absolute;
+      width: 100%;
 
-    .buttonArray {
-        display: none;
-    }
+      box-sizing: border-box;
+      padding: 4vw;
+      border-radius: 0px;
+      background: white;
+      /*background-image: url("x.png");*/
+      opacity: 1;
+      z-index: 1
+  }
+  .container-profile-link {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-content: space-around;
+      align-items: center;
+      position: relative;
+      width: 100%;
+      border-spacing: 0em;
 
-    .textContainer {
-        width: 90%;
-    }
+      padding-right: 1vw;
+      padding-left: 1vw;
+      text-align: center;
+  }
+
+  .buttonArray {
+      display: none;
+  }
+
+  .textContainer {
+      width: 90%;
+  }
 
     .resumeButton {
         display: none;
