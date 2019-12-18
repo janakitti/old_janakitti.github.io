@@ -3,8 +3,8 @@
 }
 
 body {
-    background-color: #00AACC;
-    background-color: #F2F2F2;
+    background: rgb(26,47,41);
+    background: linear-gradient(45deg, rgba(26,47,41,1) 0%, rgba(62,24,67,1) 100%);
     margin: 0;
 }
 
@@ -1019,8 +1019,8 @@ s {
 /* MOBILE FORMATTING */
 @media (max-width: 879px) {
     body {
-        background: rgb(197,218,224);
-        background: linear-gradient(180deg, rgba(197,218,224,1) 0%, rgba(182,201,207,1) 100%);
+        background: rgb(26,47,41);
+        background: linear-gradient(45deg, rgba(26,47,41,1) 0%, rgba(62,24,67,1) 100%);
     }
 
     .parallaxContainer {
@@ -1144,13 +1144,13 @@ s {
     .background {
         height: 100%;
         width: 100%;
-
         top: 0;
         left: 0;
         object-fit: cover;
         position: absolute;
         overflow: hidden;
         z-index: -1;
+        display: none;
         background-position: 50% 400px;
         background-size: cover;
         background-color: black;
