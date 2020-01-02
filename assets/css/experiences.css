@@ -1,5 +1,5 @@
 body {
-    background: white; 
+    background: white;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -58,8 +58,26 @@ h1 {
     font-weight: bold;
     font-size: 1.5em;
     color: black;
-    margin-top: 0vh;
+    text-align: left;
+    line-height: 1em;
+}
+
+.itemOrg {
+    font-family: Open Sans;
+    font-weight: italic;
+    font-size: 1.5em;
+    color: black;
+    text-align: left;
+    line-height: 1em;
+}
+
+.itemDate {
+    font-family: Open Sans;
+    font-size: 1em;
+    color: black;
+    margin-top: 1em;
     margin-bottom: 5vh;
+    margin-left: 1em;
     text-align: left;
     line-height: 1em;
     margin-bottom: -0.2em;
@@ -69,6 +87,7 @@ h1 {
     font-family: Lato;
     font-weight: regular;
     font-size: 0.90em;
+    margin-left: 1em;
     color: black;
     text-align: justify;
     line-height: 1.5em;
