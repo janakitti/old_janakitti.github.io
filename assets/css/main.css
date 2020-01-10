@@ -278,8 +278,8 @@ section h1 {
     border-spacing: 1em;
     margin-bottom: -2em;
     padding-top: 6em;
-    padding-right: 25vw;
-    padding-left: 25vw;
+    padding-right: 15vw;
+    padding-left: 15vw;
     vertical-align: middle;
     border: 1px solid black;
     background-color: white;
@@ -291,8 +291,8 @@ section h1 {
     border-spacing: 0em;
     padding-top: 6em;
     padding-bottom: 6em;
-    padding-right: 25vw;
-    padding-left: 25vw;
+    padding-right: 15vw;
+    padding-left: 15vw;
     margin: auto;
     text-align: center;
     vertical-align: middle;
@@ -404,9 +404,11 @@ s {
     width: 100%;
     margin-top: 2em;
     margin-bottom: 2em;
+
     background: rgb(39,46,49);
     background: linear-gradient(90deg, rgba(39,46,49,1) 0%, rgba(24,67,50,1) 100%);
     box-shadow: inset 0px 0px 30px rgba(0, 0, 0, 0.8);
+
     height: auto;
     padding-top: 0em;
     padding-bottom: 2em;
@@ -668,15 +670,15 @@ s {
 .card-home {
     border-radius: 0em;
     margin: auto;
+    margin-top: 2em;
     background-color: #fefefe;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 50px;
     transition: 0.3s;
-    height: 8em;
     width: 16em;
+    padding: 0.3em;
     text-align: center;
     vertical-align: middle;
-    height: 10em;
-    line-height: 10em;
 
 }
 
@@ -728,6 +730,7 @@ s {
     font-weight: 400;
     font-size: 1.5em;
     word-wrap: break-word;
+    vertical-align: middle;
     color: white;
 }
 
